@@ -1,6 +1,6 @@
-# 💰 Financial Dashboard
+# 💰 Finance Dashboard
 
-A modern, responsive financial dashboard built using **React + Tailwind CSS** that allows users to track, analyze, and manage their financial activities efficiently.
+A modern, responsive financial dashboard built with React and Tailwind CSS that helps users track income, expenses, and spending insights in a clean and interactive way.
 
 ---
 
@@ -29,7 +29,7 @@ A modern, responsive financial dashboard built using **React + Tailwind CSS** th
 - 👁 Viewer → Can only view data
 - 🛠 Admin → Can add, edit, and delete transactions
 
-Switch roles using the dropdown in the header.
+Switch roles using the dropdown in the Navbar.
 
 ---
 
