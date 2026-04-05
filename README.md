@@ -1,4 +1,8 @@
+
 # 💰 Finance Dashboard
+=======
+## Financial Dashboard
+
 
 A modern, responsive financial dashboard built with React and Tailwind CSS that helps users track income, expenses, and spending insights in a clean and interactive way.
 
@@ -6,7 +10,7 @@ A modern, responsive financial dashboard built with React and Tailwind CSS that 
 
 ## Live Features
 
-###  Dashboard Overview
+### Dashboard Overview
 
 - View **Total Balance, Income, and Expenses**
 - **Balance Trend Chart** (time-based visualization)
@@ -14,26 +18,26 @@ A modern, responsive financial dashboard built with React and Tailwind CSS that 
 
 ---
 
-###  Transactions Management (CRUD)
+### Transactions Management (CRUD)
 
-- ➕ Add transactions (via modal form)
-- ✏️ Edit existing transactions
-- ❌ Delete transactions
-- 🔍 Search by category
-- 🔽 Filter by type (Income / Expense)
+- Add transactions (via modal form)
+- Edit existing transactions
+- Delete transactions
+- Search by category
+- Filter by type (Income / Expense)
 
 ---
 
-### 🔐 Role-Based UI (Simulated)
+### Role-Based UI (Simulated)
 
-- 👁 Viewer → Can only view data
-- 🛠 Admin → Can add, edit, and delete transactions
+- Viewer → Can only view data
+- Admin → Can add, edit, and delete transactions
 
 Switch roles using the dropdown in the Navbar.
 
 ---
 
-### 🌙 Dark Mode
+### Dark Mode
 
 - Toggle between light and dark themes
 - Smooth UI transition
@@ -41,7 +45,7 @@ Switch roles using the dropdown in the Navbar.
 
 ---
 
-### 💾 Data Persistence
+### Data Persistence
 
 - Uses **LocalStorage**
 - Data is saved automatically
@@ -49,22 +53,22 @@ Switch roles using the dropdown in the Navbar.
 
 ---
 
-### 🌐 Mock API Integration
+### Mock API Integration
 
 - Simulates backend data fetching
 - Adds realistic delay for loading experience
 
 ---
 
-### 📤 Export Functionality
+### Export Functionality
 
 - Export transactions as:
-  - 📄 JSON file
-  - 📊 CSV file
+  - JSON file
+  - CSV file
 
 ---
 
-### 🔍 Advanced Filtering
+### Advanced Filtering
 
 - Combine:
   - Search (category)
@@ -72,7 +76,7 @@ Switch roles using the dropdown in the Navbar.
 
 ---
 
-### 📈 Insights Section
+### Insights Section
 
 - Highlights:
   - Highest spending category
@@ -80,7 +84,7 @@ Switch roles using the dropdown in the Navbar.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Frontend:** React (JavaScript, JSX)
 - **Styling:** Tailwind CSS
@@ -90,7 +94,7 @@ Switch roles using the dropdown in the Navbar.
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 src/
@@ -112,22 +116,34 @@ src/
 
 ---
 
-## ⚙️ Setup Instructions
+---
 
-### 1️⃣ Clone the Repository
+## Screenshots
+
+![Dashboard](./screenshots/admin_dashboard.png)
+![navbar_viewer](./screenshots/nav_viewer.png)
+![chartAndGraph](./screenshots/chartAndGraph.jpg)
+![insight](./screenshots/insight.png)
+![searchBycategory](./screenshots/search_expences.png)
+![search_income](./screenshots/search_income.png)
+![footer](./screenshots/footer.png)
+
+## Setup Instructions
+
+### 1️ Clone the Repository
 
 ```bash
 git clone https://github.com/Dileepsajwan/financial-dashboard.git
 cd financial-dashboard
 ```
 
-### 2️⃣ Install Dependencies
+### 2️ Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 3️⃣ Run the Project
+### 3️ Run the Project
 
 ```bash
 npm run dev
@@ -135,17 +151,17 @@ npm run dev
 
 ---
 
-## 📱 Responsiveness
+## Responsiveness
 
 - Fully responsive layout
 - Works across:
-  - Desktop 💻
-  - Tablet 📱
-  - Mobile 📲
+  - Desktop
+  - Tablet
+  - Mobile
 
 ---
 
-## 🎯 Key Highlights
+## Key Highlights
 
 - Clean and modular architecture
 - Real-world features (CRUD + persistence)
@@ -155,25 +171,26 @@ npm run dev
 
 ---
 
-## ⚠️ Future Improvements
+## Future Improvements
 
-- 🔔 Toast notifications (success/error)
-- ⚠️ Delete confirmation modal
-- 📅 Date range filtering
-- 📊 Advanced analytics (monthly trends)
-- 🌐 Backend integration (Node.js / Firebase)
-- 🚀 Deployment (Vercel)
+- Toast notifications (success/error)
+- Delete confirmation modal
+- Date range filtering
+- Advanced analytics (monthly trends)
+- Backend integration (Node.js / Firebase)
+- Deployment (Vercel)
 
 ---
 
-## 🙌 Author
+## Author
 
-DileepKumar
+
+Dileep Kumar
 Frontend Developer
 
 ---
 
-## ⭐ Feedback
+## Feedback
 
 If you like this project, feel free to ⭐ the repo and share your feedback!
 
