@@ -14,7 +14,9 @@ export default function Dashboard() {
   const [search, setSearch] = useState("");
   const [filter, setFilter] = useState("all");
   const [role, setRole] = useState("viewer");
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(
+    localStorage.getItem("darkMode") === "true",
+  );
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [editData, setEditData] = useState(null);
   const [toast, setToast] = useState("");
@@ -24,6 +26,7 @@ export default function Dashboard() {
   // 🌙 Dark Mode
   useEffect(() => {
     document.documentElement.classList.toggle("dark", darkMode);
+    localStorage.setItem("darkMode", darkMode);
   }, [darkMode]);
 
   // 📦 Load Data
@@ -196,7 +199,7 @@ export default function Dashboard() {
       />
 
       {/* Main */}
-      <div className="min-h-screen bg-linear-to-br from-indigo-100 via-white to-purple-100 dark:from-gray-900 transition-all duration-500">
+      <div className="min-h-screen bg-linear-to-br from-indigo-100 via-white to-purple-100 dark:from-gray-900 dark:via-gray-900 dark:to-gray-800 transition-all duration-500">
         <div className="max-w-6xl mx-auto p-4 space-y-6">
           {/* Dashboard */}
           <div id="dashboard">

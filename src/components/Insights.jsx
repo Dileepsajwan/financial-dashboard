@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Insights({ highestCategory, summary }) {
   return (
-    <div className="bg-white dark:bg-gray-800 shadow-md rounded-2xl p-4">
+    <div className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-200 shadow-md dark:shadow-black/40 rounded-2xl p-4 transition">
       <h2 className="font-semibold mb-2 dark:text-white">Insights</h2>
 
       <p>Top Spending Category: {highestCategory?.name || "N/A"}</p>

@@ -10,7 +10,7 @@ export default function Navbar({
   onAddClick,
 }) {
   return (
-    <nav className="sticky top-0 z-50 bg-linear-to-r from-indigo-600 via-purple-600 to-pink-500 shadow-lg px-6 py-4 flex justify-between items-center">
+    <nav className="bg-indigo-600 dark:bg-gray-900 text-white px-6 py-4 shadow-md flex justify-between items-center">
       {/* Logo */}
       <h1 className="text-xl font-bold text-white tracking-wide">
         💰 Finance Tracker
@@ -31,7 +31,7 @@ export default function Navbar({
         {/* Dark Mode */}
         <button
           onClick={() => setDarkMode(!darkMode)}
-          className="px-3 py-2 rounded-lg bg-black/40 text-white hover:scale-105 transition"
+          className="px-3 py-2 rounded-lg bg-white/20 backdrop-blur-md hover:scale-105 transition"
         >
           {darkMode ? "☀️" : "🌙"}
         </button>
@@ -39,14 +39,14 @@ export default function Navbar({
         {/* Export */}
         <button
           onClick={exportJSON}
-          className="px-3 py-2 bg-green-500 text-white rounded-lg hover:scale-105 transition"
+          className="px-3 py-2 bg-white/20 hover:bg-white/30 rounded-lg transition"
         >
           JSON
         </button>
 
         <button
           onClick={exportCSV}
-          className="px-3 py-2 bg-blue-500 text-white rounded-lg hover:scale-105 transition"
+          className="px-3 py-2 bg-white/20 hover:bg-white/30 rounded-lg transition"
         >
           CSV
         </button>
@@ -55,7 +55,7 @@ export default function Navbar({
         {role === "admin" && (
           <button
             onClick={onAddClick}
-            className="bg-yellow-400 text-black px-4 py-2 rounded-lg font-semibold hover:scale-105 transition"
+            className="px-3 py-2 bg-white/20 hover:bg-white/30 rounded-lg transition"
           >
             + Add
           </button>

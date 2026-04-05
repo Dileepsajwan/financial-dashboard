@@ -1,6 +1,3 @@
-
-# 💰 Finance Dashboard
-=======
 ## Financial Dashboard
 
 

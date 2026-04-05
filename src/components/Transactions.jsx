@@ -10,11 +10,11 @@ export default function Transactions({
   onDelete,
 }) {
   return (
-    <div className="bg-white dark:bg-gray-800 shadow-md rounded-2xl p-4">
+    <div className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-200 shadow-md dark:shadow-black/40 rounded-2xl p-4 transition">
       {/* 🔍 Controls */}
       <div className="flex flex-wrap gap-2 mb-4">
         <input
-          className="border p-2 rounded-lg w-full md:w-auto dark:bg-gray-700 dark:text-white"
+          className="border p-2 rounded-lg bg-white dark:bg-gray-700 dark:text-white"
           placeholder="Search category"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
@@ -35,7 +35,7 @@ export default function Transactions({
       ) : (
         <table className="w-full text-sm">
           <thead>
-            <tr className="border-b text-left">
+            <tr className="border-b hover:bg-gray-50 dark:hover:bg-gray-700 transition">
               <th className="py-2">Date</th>
               <th>Category</th>
               <th>Amount</th>

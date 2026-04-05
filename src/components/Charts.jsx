@@ -15,7 +15,7 @@ export default function Charts({ trendData, categoryData }) {
   return (
     <div className="grid md:grid-cols-2 gap-4">
       {/* Line Chart */}
-      <div className="bg-white dark:bg-gray-800 shadow-md rounded-2xl p-4">
+      <div className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-200 shadow-md dark:shadow-black/40 rounded-2xl p-4 transition">
         <h2 className="font-semibold mb-2 dark:text-white">Balance Trend</h2>
 
         <ResponsiveContainer width="100%" height={200}>
@@ -28,7 +28,7 @@ export default function Charts({ trendData, categoryData }) {
         </ResponsiveContainer>
       </div>
 
-      <div className="bg-white dark:bg-gray-800 shadow-md rounded-2xl p-4">
+      <div className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-200 shadow-md dark:shadow-black/40 rounded-2xl p-4 transition">
         <h2 className="font-semibold mb-2 dark:text-white">
           Spending Breakdown
         </h2>

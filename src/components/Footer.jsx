@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-950 text-gray-300 mt-12">
+    <footer className="bg-gray-900 text-gray-300 py-8 ">
       <div className="max-w-6xl mx-auto px-6 py-10 grid md:grid-cols-3 gap-8">
         {/* 🔹 Brand */}
         <div>
@@ -23,7 +23,7 @@ export default function Footer() {
                 .getElementById("dashboard")
                 ?.scrollIntoView({ behavior: "smooth" })
             }
-            className="hover:text-indigo-400 cursor-pointer transition"
+            className="hover:text-white transition cursor-pointer"
           >
             Dashboard
           </li>
@@ -34,7 +34,7 @@ export default function Footer() {
                 .getElementById("transactions")
                 ?.scrollIntoView({ behavior: "smooth" })
             }
-            className="hover:text-indigo-400 cursor-pointer transition"
+            className="hover:text-white transition cursor-pointer"
           >
             Transactions
           </li>
@@ -45,7 +45,7 @@ export default function Footer() {
                 .getElementById("charts")
                 ?.scrollIntoView({ behavior: "smooth" })
             }
-            className="hover:text-indigo-400 cursor-pointer transition"
+            className="hover:text-white transition cursor-pointer"
           >
             Charts
           </li>
@@ -56,7 +56,7 @@ export default function Footer() {
                 .getElementById("insights")
                 ?.scrollIntoView({ behavior: "smooth" })
             }
-            className="hover:text-indigo-400 cursor-pointer transition"
+            className="hover:text-white transition cursor-pointer"
           >
             Insights
           </li>
